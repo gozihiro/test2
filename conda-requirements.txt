@@ -1,0 +1,5 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+line-bot-sdk==1.12.1
+Flask==1.1.1

@@ -82,7 +82,7 @@ def message_text(event):
 
     #ユーザの発言
     usermessage=event.message.text
-
+    print(usermessage)
 
     #メッセージ
     line_bot_api.reply_message(

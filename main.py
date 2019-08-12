@@ -92,6 +92,8 @@ def message_text(event):
 #加入しない場合、全部出す
 @handler.add(PostbackEvent)
 def handle_postback(event):
+    if event.reply_token == "00000000000000000000000000000000":
+        return
 
     line_bot_api.reply_message(
         event.reply_token, TextSendMessage(text='iiiii')
